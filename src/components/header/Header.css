@@ -4,16 +4,12 @@
     text-align: center;
     flex-wrap: wrap;
     flex-direction: column;
-    padding-bottom: 10px;
+    height: 10vh;
 }
 .headerMain img{
     height: 40px;
-    padding-top: 10px;
 }
 .headerMain H1{
     font-size: 20px;
     font-weight: 600;
-}
-.menuBar{
-    padding: 10px;
 }
