@@ -1,0 +1,19 @@
+.headerMain{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.headerMain img{
+    height: 40px;
+    padding-top: 10px;
+}
+.headerMain H1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.menuBar{
+    padding: 10px;
+}
