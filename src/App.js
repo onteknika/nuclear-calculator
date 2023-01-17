@@ -1,5 +1,9 @@
 import "./App.css";
 import Results from "./components/Results";
+import Footer from "./components/footer/Footer";
+
+
+
 function App(props) {
 
   return (
@@ -26,8 +30,8 @@ function App(props) {
       <hr></hr>
       <h3>RESULTS:</h3>
       <Results/>
+      <Footer />
       </div>
-
 
     </div>
 
