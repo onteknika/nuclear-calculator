@@ -50,8 +50,8 @@ function timeDifference(calculationTime, measurmentTime){
 
         <hr></hr>
         <form>
-          <p>INITIAL ACTIVITY:</p>
-          <input type="number" defaultValue={0} onChange={getActivity}></input> MBq
+          <p>INITIAL ACTIVITY (MBq):</p>
+          <input type="number" defaultValue={0} onChange={getActivity}></input> 
           <p>MEASURMENT TIME:</p>
           <input type="datetime-local"  onInput={getMeasurmentTime}></input>
           <p>CALCULATION TIME:</p>
