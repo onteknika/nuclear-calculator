@@ -39,7 +39,7 @@ function timeDifference(calculationTime, measurmentTime){
 
     <div className="App">
       <div className="kafelek">
-        <h3>CHOOSE ISOTOPE</h3>
+        <h3>SELECT ISOTOPE</h3>
         <select onChange={getHalfLife} defaultValue={0}>
           <option value={0}>Select</option>
           <option value={360.6}>Tc-99m</option>
