@@ -8,17 +8,20 @@ function Header(props) {
     return (
       <div className="headerMain">
         <h1>NUCLEAR CALCULATOR</h1>
-
+        <a href="#">
         <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Radioactive.svg" alt="logo radiocative"></img>
+        </a>
         <div className="menuBar">TU BEDZIE MENU HEHE</div>
       </div>
     );
   } else {
     return (
       <div className="headerMain">
-         <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Radioactive.svg" alt="logo radiocative"></img>
+        <a href="#">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Radioactive.svg" alt="logo radiocative" ></img>
+         </a>
         <h1>NUCLEAR CALCULATOR</h1>
-
+ 
         <div className="menuBar"></div>
       </div>
     );

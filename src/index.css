@@ -7,12 +7,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: #1e1f26;
   color: #e8bf28;
   font-family: 'Montserrat', sans-serif;
+  animation: fadeIn 1s;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+
+
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  25%{opacity: 0.25;}
+  50%{opacity: 0.5;}
+  100%{opacity: 1;}
 }
