@@ -36,3 +36,14 @@
   margin-top: 30px;
   margin-bottom: 5px;
 }
+
+.kafelek button{
+  display: none;
+  margin: 10px 0;
+  height: 40px;
+  background-color:#e8bf28;
+  color: black;
+  border: black 1px solid;
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 18px;
+}

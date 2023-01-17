@@ -2,9 +2,9 @@ import React from "react";
 
 function Results(props){
 
-    let activity = 250; //MBq
-    let halfLife = 68; //minutes
-    let mTime = 120;
+    let activity = Number(props.activity); //MBq
+    let halfLife = Number(props.halfLife); //minutes
+    let mTime = Number(props.mTime);  //minutes
 
 
 function remainingActivity(activity, halfLife, mTime){
@@ -16,12 +16,20 @@ return resultActivity;
 };
 
 let result = remainingActivity(activity, halfLife, mTime);
-
+if (isNaN(result)){
     return(
         <div className="results">
-<h1>{result.toFixed(2)} MBq</h1>
+    <h1> - MBq</h1>
         </div>
-    )
+        )
+}
+else{
+    return(
+    <div className="results">
+<h1>{result.toFixed(2)} MBq</h1>
+    </div>
+)
+}   
 }
 
 export default Results;
